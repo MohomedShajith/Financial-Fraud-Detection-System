@@ -1,0 +1,5 @@
+.env
+*.pkl
+Models/
+.gradio/
+__pycache__/
