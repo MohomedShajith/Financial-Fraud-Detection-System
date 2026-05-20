@@ -29,7 +29,7 @@ The goal of the project is to build a complete end-to-end machine learning solut
 
 ## FastAPI Response Example
 
-![FastAPI Response](Screenshots/Fraud-Detection-FastAPI-Response.png)
+![FastAPI Response](Screenshots/Fruad-Detection-FastAPI-Response.png)
 
 ## Gradio Dashboard
 
