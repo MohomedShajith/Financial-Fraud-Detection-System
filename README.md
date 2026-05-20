@@ -25,7 +25,7 @@ The goal of the project is to build a complete end-to-end machine learning solut
 
 ## FastAPI Prediction Endpoint
 
-![FastAPI Prediction](Screenshots/Fraud-Detection-FastAPI.png)
+![FastAPI Prediction](Screenshots/Fruad-Detection-FastAPI.png)
 
 ## FastAPI Response Example
 
