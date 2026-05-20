@@ -10,7 +10,7 @@ from datetime import datetime
 from pymongo import MongoClient
 from model.train import Fraud_model
 
-
+load_dotenv()
 app =FastAPI()
 load_model =  Fraud_model()
 load_model.load_state_dict(torch.load(r"Models\fraud prediction neural network model.pth"))
@@ -18,7 +18,7 @@ scaler = joblib.load('model/scaler.pkl')
 
 load_model.eval()
 
-load_dotenv()
+
 
 url = os.getenv("MONGO_URI")
 client = MongoClient(url)

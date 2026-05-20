@@ -20,19 +20,22 @@ def predict_from_csv(file):
        
         payload.pop("Class", None)
 
-        
-        response = requests.post(
-            "http://127.0.0.1:8000/predict",
-            json=payload
-        )
+        try:
+            response = requests.post(
+                "http://127.0.0.1:8000/predict",
+                json=payload
+            )
+
+            
+            result = response.json()
+            
 
         
-        result = response.json()
-        
-
-       
-        predictions.append(result["Fraud"])
-        probabilities.append(result["Fraud_probability"])
+            predictions.append(result["Fraud"])
+            probabilities.append(result["Fraud_probability"])
+        except:
+            predictions.append(-1)
+            probabilities.append(-1)
 
     
     df["Prediction"] = predictions

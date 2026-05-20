@@ -20,7 +20,6 @@ class Fraud_model(nn.Module):
 if __name__ == "__main__":
     torch.manual_seed(42)
     model = Fraud_model()
-    model.state_dict()
     loss_fn = nn.BCELoss()
     optim = torch.optim.Adam(params= model.parameters(),lr=0.001)
 
@@ -56,10 +55,10 @@ if __name__ == "__main__":
             print(f"Epoch :{epoch},Train_Loss{loss:.2f},Test_Loss{test_loss :.2f}")
 
     model.eval()
-    with torch.no_grad():
+    with torch.inference_mode():
         pred_logits = model(X_test)
         y_preds = torch.round(pred_logits)
-        y_loss = loss_fn(pred_logits,y_test)
+     
 
     y_preds = y_preds.detach().numpy()
     y_test = y_test.detach().numpy()
