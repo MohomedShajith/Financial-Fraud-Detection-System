@@ -33,7 +33,7 @@ The goal of the project is to build a complete end-to-end machine learning solut
 
 ## Gradio Dashboard
 
-![Gradio Dashboard](Screenshots/Fraud-Detection-Gradio-UI.png)
+![Gradio Dashboard](Screenshots/Fruad-Detection-Gradio-UI.png)
 
 ## Prediction Results Table
 
