@@ -25,23 +25,23 @@ The goal of the project is to build a complete end-to-end machine learning solut
 
 ## FastAPI Prediction Endpoint
 
-![FastAPI Prediction](screenshots/Fraud-Detection-FastAPI.png)
+![FastAPI Prediction](Screenshots/Fraud-Detection-FastAPI.png)
 
 ## FastAPI Response Example
 
-![FastAPI Response](screenshots/Fraud-Detection-FastAPI-Response.png)
+![FastAPI Response](Screenshots/Fraud-Detection-FastAPI-Response.png)
 
 ## Gradio Dashboard
 
-![Gradio Dashboard](screenshots/Fraud-Detection-Gradio-UI.png)
+![Gradio Dashboard](Screenshots/Fraud-Detection-Gradio-UI.png)
 
 ## Prediction Results Table
 
-![Prediction Results](screenshots/Fraud-Detection-Gradio-UI-output.png)
+![Prediction Results](Screenshots/Fraud-Detection-Gradio-UI-output.png)
 
 ## Fraud Probability Visualizations
 
-![Fraud Graphs](screenshots/Fraud-Detection-Gradio-UI-graphs.png)
+![Fraud Graphs](Screenshots/Fraud-Detection-Gradio-UI-graphs.png)
 
 ---
 
