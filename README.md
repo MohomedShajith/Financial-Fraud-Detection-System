@@ -37,7 +37,7 @@ The goal of the project is to build a complete end-to-end machine learning solut
 
 ## Prediction Results Table
 
-![Prediction Results](Screenshots/Fraud-Detection-Gradio-UI-output.png)
+![Prediction Results](Screenshots/Fruad-Detection-Gradio-UI-output.png)
 
 ## Fraud Probability Visualizations
 
